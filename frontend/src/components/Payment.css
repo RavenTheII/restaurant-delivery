@@ -1,0 +1,36 @@
+.payment-container {
+  padding: 20px;
+}
+
+.payment-container h1 {
+  margin-bottom: 20px;
+}
+
+.payment-container .form-group {
+  margin-bottom: 15px;
+}
+
+.payment-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payment-container .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.payment-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-container button:hover {
+  background-color: #45a049;
+}

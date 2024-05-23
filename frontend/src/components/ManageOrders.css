@@ -1,0 +1,36 @@
+.manage-orders-container {
+  padding: 20px;
+}
+
+.manage-orders-container h1 {
+  margin-bottom: 20px;
+}
+
+.manage-orders-container .order-details {
+  margin-bottom: 15px;
+}
+
+.manage-orders-container .order-details label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.manage-orders-container .order-details input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.manage-orders-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.manage-orders-container button:hover {
+  background-color: #45a049;
+}

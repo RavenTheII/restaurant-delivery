@@ -1,0 +1,20 @@
+.checkout-container {
+  padding: 20px;
+}
+
+.checkout-container h1 {
+  margin-bottom: 20px;
+}
+
+.checkout-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-container button:hover {
+  background-color: #45a049;
+}
