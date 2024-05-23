@@ -61,7 +61,8 @@ jobs:
 
       - name: Build frontend
         run: |
-          cd frontend/restaurant-delivery
+          cd frontend
+          npm install
           npm run build
 
       - name: Deploy to GitHub Pages
