@@ -1,5 +1,4 @@
-const { add } = require('../server');
+const assert = require('assert');
+const { add } = require('../server');  // Import the function from server.js
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(add(1, 2)).toBe(3);
-});
+assert.strictEqual(add(1, 2), 3, '1 + 2 should equal 3');
