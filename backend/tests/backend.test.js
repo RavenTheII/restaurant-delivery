@@ -1,4 +1,5 @@
 const assert = require('assert');
-const { add } = require('../server');  // Import the function from server.js
+const { print } = require('../server');  // Import the print function
 
-assert.strictEqual(add(1, 2), 3, '1 + 2 should equal 3');
+assert.strictEqual(typeof print, 'function', 'print should be a function');
+print();  // Call the print function
