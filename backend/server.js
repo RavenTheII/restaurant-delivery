@@ -128,6 +128,14 @@ app.put('/api/orders/:id/reject', async (req, res) => {
   }
 });
 
+// Export functions or models for testing
+module.exports = {
+  Restaurant,
+  Order,
+  calculateTotal,
+  calculateDiscountedTotal
+};
+
 function calculateTotal(items) {
   return items.reduce((total, item) => total + item.price, 0);
 }
