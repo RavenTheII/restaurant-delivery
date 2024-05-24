@@ -4,10 +4,6 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-function print() {
-  console.log("Hello, world!");
-}
-
 
 // Middleware
 app.use(cors());
@@ -138,8 +134,8 @@ module.exports = {
   Restaurant,
   Order,
   calculateTotal,
-  calculateDiscountedTotal
-  print
+  calculateDiscountedTotal,
+  print1
 };
 
 
@@ -149,6 +145,10 @@ function calculateTotal(items) {
 
 function calculateDiscountedTotal(items) {
   return items.reduce((total, item) => total + item.price * 0.9, 0); // Example 10% discount
+}
+
+function print1() {
+  console.log("Hello, world!");
 }
 
 app.listen(5000, () => {
