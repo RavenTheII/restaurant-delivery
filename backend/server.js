@@ -4,13 +4,6 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-function add(a, b) {
-  return a + b;
-}
-
-module.exports = { add };
-
-
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -141,7 +134,12 @@ module.exports = {
   Order,
   calculateTotal,
   calculateDiscountedTotal
+  add
 };
+
+function add(a, b) {
+  return a + b;
+}
 
 function calculateTotal(items) {
   return items.reduce((total, item) => total + item.price, 0);
