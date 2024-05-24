@@ -4,6 +4,10 @@ const mongoose = require('mongoose');
 
 const app = express();
 
+exports.add = function(a, b) {
+  return a + b;
+};
+
 // Middleware
 app.use(cors());
 app.use(express.json());
