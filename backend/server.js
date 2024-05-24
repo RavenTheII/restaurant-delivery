@@ -4,9 +4,10 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-function print {
+function print() {
   console.log("Hello, world!");
 }
+
 
 // Middleware
 app.use(cors());
