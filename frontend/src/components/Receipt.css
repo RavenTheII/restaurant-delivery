@@ -1,0 +1,48 @@
+.receipt-container {
+  padding: 20px;
+}
+
+.receipt-container h1 {
+  margin-bottom: 20px;
+}
+
+.receipt-container .receipt-details {
+  margin-bottom: 20px;
+}
+
+.receipt-container .receipt-details p {
+  margin: 5px 0;
+}
+
+.receipt-container h2 {
+  margin-bottom: 10px;
+}
+
+.receipt-container .star-rating {
+  margin-bottom: 20px;
+}
+
+.receipt-container .star-rating span {
+  font-size: 2em;
+}
+
+.receipt-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.receipt-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.receipt-container button:hover {
+  background-color: #45a049;
+}

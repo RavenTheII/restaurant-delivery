@@ -1,0 +1,28 @@
+.estimated-time-container {
+  padding: 20px;
+}
+
+.estimated-time-container h1 {
+  margin-bottom: 20px;
+}
+
+.estimated-time-container .time-info {
+  margin-bottom: 15px;
+}
+
+.estimated-time-container .time-info p {
+  margin-bottom: 5px;
+}
+
+.estimated-time-container .next-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.estimated-time-container .next-button:hover {
+  background-color: #45a049;
+}
